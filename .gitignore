@@ -1,0 +1,21 @@
+# Binaries
+bin/
+*.test
+*.out
+
+# Coverage
+coverage.out
+coverage.html
+
+# SQLite database (never commit)
+*.db
+*.db-shm
+*.db-wal
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
