@@ -1,5 +1,8 @@
 # Pismo Technical Case
 
+[![CI](https://github.com/MateusBezerraa/pismo-technical-case/actions/workflows/ci.yml/badge.svg)](https://github.com/MateusBezerraa/pismo-technical-case/actions/workflows/ci.yml)
+
+
 Simple transactions service with 3 endpoints, built with Go and clean architecture.
 
 ---
