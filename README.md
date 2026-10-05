@@ -18,14 +18,12 @@ make docker        # build the image
 make docker-run    # start the container on :8080
 ```
 
-> PS. If you used a previous version of this project, wipe stale data first:
-> `make docker-clean`
-
-Or with persistence to a named volume:
+Data persists in the pismo-data Docker volume. To wipe it:
 
 ```bash
-docker run --rm -p 8080:8080 -v pismo-data:/data pismo-technical-case
+make docker-clean
 ```
+
 
 ### Locally (requires Go 1.27+)
 
