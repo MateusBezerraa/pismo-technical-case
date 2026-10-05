@@ -28,8 +28,6 @@ make docker-clean
 ### Locally (requires Go 1.27+)
 
 ```bash
-./run.sh
-# or
 make run
 ```
 
